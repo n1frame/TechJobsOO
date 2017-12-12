@@ -11,17 +11,18 @@ namespace TechJobs.ViewModels
         // to BaseViewModel
 
         // The current column
-        public JobFieldType Column { get; set; }
+        //public JobFieldType Column { get; set; }
 
         // All fields in the given column
         public IEnumerable<JobField> Fields { get; set; }
 
         // All columns, for display
-        public List<JobFieldType> Columns { get; set; }
+        //public List<JobFieldType> Columns { get; set; }
 
         // View title
-        public string Title { get; set; } = "";
+        //public string Title { get; set; } = "";
 
+        /*
         public JobFieldsViewModel()
         {
             // Populate the list of all columns
@@ -32,8 +33,8 @@ namespace TechJobs.ViewModels
             {
                 Columns.Add(enumVal);
             }
-
+        */
 
         }
     }
-}
+
